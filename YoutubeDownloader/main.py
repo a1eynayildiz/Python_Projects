@@ -1,4 +1,8 @@
-import pytube
-url = input("Enter video url: ")
+import yt_dlp
 
-pytube.YouTube(url).streams
+url = input("Video linkini yapıştır: ")
+
+ayarlar = {'noplaylist': True}
+
+yt_dlp.YoutubeDL(ayarlar).download([url])
+print("Video başarıyla indirildi!")
