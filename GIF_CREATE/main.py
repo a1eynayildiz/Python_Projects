@@ -1,4 +1,4 @@
-from PIL import Image
+
 
 frames = [
     Image.new("RGB", (200, 200), c) #Her renk için 200x200 piksel renkli kare oluştur
