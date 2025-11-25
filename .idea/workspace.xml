@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c14e6c6d-1fe6-458b-94eb-937ffe896c24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/turtle/CatchTheTurtle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle/TurtleDrawingProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle/TurtleDrawingProject.py" afterDir="false" />
-    </list>
+    <list default="true" id="c14e6c6d-1fe6-458b-94eb-937ffe896c24" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +78,7 @@
       <workItem from="1763917579420" duration="1623000" />
       <workItem from="1763970533339" duration="10064000" />
       <workItem from="1764002315728" duration="6902000" />
-      <workItem from="1764081003745" duration="2674000" />
+      <workItem from="1764081003745" duration="3236000" />
     </task>
     <servers />
   </component>
@@ -92,7 +88,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Projects$main.coverage" NAME="main Coverage Results" MODIFIED="1762192792504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GIF_CREATE" />
     <SUITE FILE_PATH="coverage/Python_Projects$turtleInteractive.coverage" NAME="turtleInteractive Coverage Results" MODIFIED="1764002566603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/turtle" />
-    <SUITE FILE_PATH="coverage/Python_Projects$CatchTheTurtle.coverage" NAME="CatchTheTurtle Coverage Results" MODIFIED="1764088063833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/turtle" />
+    <SUITE FILE_PATH="coverage/Python_Projects$CatchTheTurtle.coverage" NAME="CatchTheTurtle Coverage Results" MODIFIED="1764092517494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/turtle" />
     <SUITE FILE_PATH="coverage/Python_Projects$spiralhelix.coverage" NAME="spiralhelix Coverage Results" MODIFIED="1763980486714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/turtle" />
     <SUITE FILE_PATH="coverage/Python_Projects$TurtleDrawingProject.coverage" NAME="TurtleDrawingProject Coverage Results" MODIFIED="1764013651662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/turtle" />
   </component>

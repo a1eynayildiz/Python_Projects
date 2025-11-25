@@ -12,6 +12,13 @@ score = 0
 #turtle list
 turtle_list = []
 
+
+colors = ["red", "blue", "green", "purple", "yellow", "orange", "pink", "white", "gold"]
+fw = turtle.Turtle()
+fw.hideturtle()
+fw.speed(0)
+fw.width(3)
+
 #score turtle
 score_turtle = turtle.Turtle()
 
@@ -85,6 +92,7 @@ def countdown(time):
         count_down_turtle.clear()
         hide_turtles()
         count_down_turtle.write("Game Over!", align='center', font=FONT)
+        start_fireworks()
 
 def start_game_up():
     global game_over
@@ -97,6 +105,32 @@ def start_game_up():
     turtle.tracer(1)
     screen.ontimer(lambda: countdown(10), 10)
 
+
+def start_fireworks():
+    if game_over:
+
+        x = random.randint(-screen.window_width() // 2, screen.window_width() // 2)
+        y = random.randint(-screen.window_height() // 2, screen.window_height() // 2)
+
+        fw.penup()
+        fw.goto(x, y)
+        fw.pendown()
+
+        fw.color(random.choice(colors))
+        size = random.randint(50, 120)
+
+
+        turtle.tracer(0)
+
+
+        for i in range(12):
+            fw.forward(size)
+            fw.backward(size)
+            fw.right(30)
+
+        screen.update()
+        turtle.tracer(1)
+        screen.ontimer(start_fireworks, 200)
 start_game_up()
 
 turtle.mainloop()
