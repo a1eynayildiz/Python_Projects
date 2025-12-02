@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c14e6c6d-1fe6-458b-94eb-937ffe896c24" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secret notes/secretNotes.py" beforeDir="false" afterPath="$PROJECT_DIR$/secret notes/secretNotes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
     "Python.main.executor": "Run",
     "Python.secretNotes.executor": "Run",
     "Python.spiralhelix.executor": "Run",
+    "Python.subdomain_lister.executor": "Run",
     "Python.turtleInteractive.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -61,6 +63,7 @@
       <recent name="C:\Users\aleyn\PycharmProjects\Python_Projects\EraseTheBackground" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleyn\PycharmProjects\Python_Projects\subdomain" />
       <recent name="C:\Users\aleyn\PycharmProjects\Python_Projects\secret notes" />
     </key>
   </component>

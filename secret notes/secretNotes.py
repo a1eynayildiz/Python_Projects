@@ -33,10 +33,10 @@ def save_and_encrypt_notes():
         message_encrypted = encode(master_secret, message)
 
         try:
-            with open("secret.txt", "a") as data_file:
+            with open("secret.txt", "a") as data_file:#append modu
                 data_file.write(f'\n{title}\n{message_encrypted}')
         except FileNotFoundError:
-            with open("secret.txt", "w") as data_file:
+            with open("secret.txt", "w") as data_file:#write modu
                 data_file.write(f'\n{title}\n{message_encrypted}')
         finally:
             title_entry.delete(0, END)
