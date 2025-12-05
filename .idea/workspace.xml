@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c14e6c6d-1fe6-458b-94eb-937ffe896c24" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request_Assignment/PokemonApi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request_Assignment/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
